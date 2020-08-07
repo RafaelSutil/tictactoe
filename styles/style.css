@@ -1,0 +1,42 @@
+*{
+  font-family: 'Lobster', cursive;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+h1{
+  margin: 10px 0;
+  color: #673AB7;
+}
+
+.container{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+section{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 150px;
+  width: 450px;
+}
+
+.square{
+  background-color: #673AB7;
+  display: grid;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+  border: 1px solid black;
+}
+
+.square > img{
+  width: 100%;  
+}
+
+.square:hover{
+  background-color: blueviolet;
+}
